@@ -17,3 +17,12 @@ Now we have found the hidden file, thus we have to extract these files.
 ![image](https://github.com/vishwatejD/picoCTF/assets/141154035/a6342cad-57b6-4c26-8fdb-30eca1564586)
 
 
+Now it shows the file forensics is fun as a directory.
+
+Now we can dive intoit using the cd command and run the cat command.
+
+We get a string of characters which is in base 64 format. We can use this site to convert [base 64](https://www.base64decode.org/) to ascii.
+
+We get the flag.
+
+FLAG:- picoCTF{D1d_u_kn0w_ppts_r_z1p5}
